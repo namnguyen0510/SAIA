@@ -10,7 +10,7 @@ As the advancement of deep learning (DL), the Internet of Things and cloud compu
 
 Python >= 3.5, LightGBM 2.3.2
 
-### Instruction
+### Case study - Skin Lesion Data
 The example on Skin Lesion can be split into 2 mains parts:
 #### Traininng Embbeded-AI model: 
 The set of hyperparameters is derived from 5-fold cross validation, which yields the best performance in skin lesion data
