@@ -28,7 +28,7 @@ classifier.booster_.save_model('embbeded-AI.txt', num_iteration = classifier.bes
 classifier.best_score_
 ```
 #### Training SAIA decision unit:
-By adjusting the parameter epsilon, we are able to control the amount of data sent to server. Further detail will be provied in the Jupyter Notebook.
+By adjusting the parameter epsilon, we are able to control the amount of data sent to server. Further details will be provied in the Jupyter Notebook.
 
 ## Built With
 
