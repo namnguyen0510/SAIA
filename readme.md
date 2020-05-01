@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-LightGBM 2.3.2
+Python >= 3.5, LightGBM 2.3.2
 
 ### Instruction
 
