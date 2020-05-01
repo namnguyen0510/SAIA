@@ -11,9 +11,24 @@ These instructions will get you a copy of the project up and running on your loc
 Python >= 3.5, LightGBM 2.3.2
 
 ### Instruction
-The example on Skin Lesion can be split into 3 mains parts:
-#### Traininng Embbeded-AI model:
-
+The example on Skin Lesion can be split into 2 mains parts:
+#### Traininng Embbeded-AI model: 
+The set of hyperparameters is derived from 5-fold cross validation, which yields the best performance in skin lesion data
+```
+classifier = LGBMClassifier(boosting_type = 'dart', learning_rate = 0.3, 
+                            max_bin = 255, drop_rate = 0.015, objective = 'multiclassova',
+                            num_class=8, metric='multi_error', num_leaves = 64, 
+                            min_data=50, max_depth=-1, feature_fraction =1 , bagging_fraction=1,
+                            n_estimators  = 1000, num_threads = 4, class_weight = 'balanced',silent = False
+                           )
+classifier.fit(X_train, y_train, verbose = True, 
+               eval_set = [(X_train,y_train),(X_test,y_test)], eval_metric = 'multi_error')
+# Saving embedded-AI model
+classifier.booster_.save_model('embbeded-AI.txt', num_iteration = classifier.best_iteration_)
+classifier.best_score_
+```
+#### Training SAIA decision unit:
+By adjusting the parameter $\epsilon$, we are able to control the amount of data sent to server.
 
 ## Built With
 
