@@ -1,2 +1,25 @@
-Abstract
-As the advancement of deep learning (DL), the Internet of Things and cloud computing techniques for the analysis anddiagnosis of biomedical and health care problems in the last decade, mobile healthcare applications have received unprecedentedattention. Since DL techniques usually require enormous amount of computation, most of them cannot be directly deployed on thecomputation-constrained and energy-limited mobile and IoT devices. Hence, most of the mobile healthcare applications leverage thecloud computing infrastructure, where the data collected on the mobile/IoT devices would be transmitted to the cloud computingplatforms for analysis. However, in contested environments, relying on the cloud server might not be practical at all times; forinstance,the satellite communication might be denied or disrupted. In this paper, we propose SAIA, a Split Artificial IntelligenceArchitecture for mobile healthcare systems. Unlike traditional approach for artificial intelligence (AI) which solely exploits thecomputational power of the cloud server, SAIA not only relies on the cloud computing infrastructure while the wireless communicationis available, but also utilizes the lightweight AI solutions that work locally at the client side (e.g., mobile and IoT devices), hence, it canwork even when the communication is impeded. In SAIA, we propose a meta-information based decision unit, that could tune whethera sample captured by the client should be operated by embedded AI or networked AI, under different conditions. In the experimentalevaluation, extensive experiments have been conducted on two popular healthcare datasets. Our results show that SAIA consistentlyoutperforms its baselines in terms of both effectiveness and efficiency
+# SAIA: Split Artificial Intelligence Architecture for Mobile Healhcare System
+
+One Paragraph of project description goes here
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+LightGBM 2.3.2
+
+### Instruction
+
+## Built With
+
+* [Python 3](https://www.python.org/download/releases/3.0/) 
+
+## Authors
+
+* **Di Zhang** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+
+## Acknowledgments
+Effort sponsored in whole or in part by United States Special Operations Command (USSOCOM), under Partnership Intermediary Agreement No. H92222-15-3-0001-01. The U.S. Government is authorized to reproduce and distribute reprints for Government purposes notwithstanding any copyright notation thereon. \footnote{The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the United States Special Operations Command.
