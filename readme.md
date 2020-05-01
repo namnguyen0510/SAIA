@@ -1,6 +1,6 @@
 # SAIA: Split Artificial Intelligence Architecture for Mobile Healhcare System
 
-One Paragraph of project description goes here
+This respository provides instruction for Split Artificial Intelligence Architecture (SAIA) framework. The case study on Skin Lesion data will be analysized in detail to illustrate step-by-step instruction.
 
 ## Getting Started
 
