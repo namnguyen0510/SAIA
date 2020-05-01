@@ -11,6 +11,9 @@ These instructions will get you a copy of the project up and running on your loc
 Python >= 3.5, LightGBM 2.3.2
 
 ### Instruction
+The example on Skin Lesion can be split into 3 mains parts:
+#### Traininng Embbeded-AI model:
+
 
 ## Built With
 
