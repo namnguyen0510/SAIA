@@ -12,7 +12,7 @@ Python >= 3.5, LightGBM 2.3.2
 
 ### Case study - Skin Lesion Data
 The example on Skin Lesion can be split into 2 mains parts:
-#### Traininng Embbeded-AI model: 
+#### Traininng Embbeded-AI Model: 
 The set of hyperparameters is derived from 5-fold cross validation, which yields the best performance in skin lesion data
 ```
 classifier = LGBMClassifier(boosting_type = 'dart', learning_rate = 0.3, 
