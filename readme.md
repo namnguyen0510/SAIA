@@ -40,12 +40,12 @@ By adjusting the parameter epsilon, we are able to control the amount of data se
 
 ## Authors
 
-* **Di Zhuang** - *University of South Florida* - [PhD]
+* **Di Zhuang** - *zhuangdi1990@gmail.com* 
 
-* **Nam Nguyen** - *University of South Florida* - [PhD]
+* **Nam Nguyen** - *namnguyen2@mail.usf.edu* 
 
-* **Keyu Chen** - *University of South Florida* - [PhD]
-* **J.Morris Chang** - *Senior Member, IEEE* 
+* **Keyu Chen** - *keyu@mail.usf.edu * 
+* **J.Morris Chang** - *morrisjchang@gmail.com* 
 
 ## Acknowledgments
 Effort sponsored in whole or in part by United States Special Operations Command (USSOCOM), under Partnership Intermediary Agreement No. H92222-15-3-0001-01. The U.S. Government is authorized to reproduce and distribute reprints for Government purposes notwithstanding any copyright notation thereon. \footnote{The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the United States Special Operations Command.
