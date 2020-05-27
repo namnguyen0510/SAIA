@@ -36,7 +36,7 @@ By adjusting the parameter epsilon, we are able to control the amount of data se
 
 ## Publication (Link later)
 
-* [SAIA: Split Artificial Intelligence Architecture for Mobile Healthcare System](https://www.python.org/download/releases/3.0/) 
+* [SAIA: Split Artificial Intelligence Architecture for Mobile Healthcare System](https://arxiv.org/abs/2004.12059) 
 
 ## Authors
 
